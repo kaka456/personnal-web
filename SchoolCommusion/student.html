@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>信息确认</title>
+		<link rel="stylesheet" type="text/css" href="css/student.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="css/modelBox.css">
+	</head>
+
+	<body>
+		<div class="Main">
+			<h1>学籍/教职工信息认证</h1>
+			<div class="table">
+				<label id="lblSelect">
+                    <select id="selectPointOfInterest" title="Select points of interest nearby">
+                        <option value="student" selected="selected">学生</option>
+					    <option value="teacher">教职工</option>
+					    <option value="opel">后勤人员</option>
+                    </select>
+                </label>
+			</div>
+			<div class="table1">
+				
+                    <input type="text"  name="number" placeholder="教工号/学号/职工号" id="selectPointOfInterest1">
+              
+			</div>
+			<div class="table2">
+                	
+                    <input type="button" class="button"  id="triggerBtn" value="确认" >
+                    <a href="index.html">返回首页<a/>
+            </div>
+		</div>
+		
+    
+ 
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>确认完毕！</h2>
+                <span id="closeBtn" class="close">×</span>
+            </div>
+            <div class="modal-body">
+                <p>学籍/教职工信息已经进行认证</p>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/modelBox.js"></script>
+
+
+    
+    
+    
+    
+    
+	</body>
+	
+    
+</html>

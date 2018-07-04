@@ -1,0 +1,144 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.Main {
+	width: 1000px;
+	height: 600px;
+	margin: auto;
+	border: none;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	font: 12px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-shadow: 1px 1px 1px #444;
+	color: #D3D3D3;
+	background-color: #555;
+}
+.Main h1 {
+	padding: 8px 0px 40px 10px;
+	display: block;
+	border-bottom: 1px solid #444;
+}
+
+.table {
+	width: 370px;
+	height: 50px;
+	margin: auto;
+	padding-top: 100px;
+}
+
+.table1 {
+	width: 370px;
+	height: 50px;
+	margin: auto;
+	padding-top: 40px;
+}
+.table2{
+	width: 470px;
+	height: 50px;
+	margin: auto;
+	padding-top: 55px;
+}
+.table2 a{
+	width: 100px;
+	height: 50px;
+	display: block;
+	text-align: right;
+	float:right;
+	padding-top: 20px;
+	padding-right: 110px;
+	color: #fff;
+	text-align: center;
+	font-size: 15px;
+}
+#selectPointOfInterest {
+	width: 350px;
+	height: 40px;
+	line-height: 40px;
+	padding-right: 20px;
+	text-indent: 4px;
+	text-align: left;
+	vertical-align: middle;
+	border: 1px solid #94c1e7;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	font-family: SimHei;
+	font-size: 18pt;
+	font-weight: 500;
+	color: RGBA(102, 102, 102, 0.7);
+	cursor: pointer;
+	outline: none;
+}
+
+#selectPointOfInterest1{
+	width: 350px;
+	height: 40px;
+	line-height: 40px;
+	text-indent: 4px;
+	text-align: left;
+	vertical-align: middle;
+	border: 1px solid #94c1e7;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	font-family: SimHei;
+	font-size: 18pt;
+	font-weight: 500;
+	color: RGBA(102, 102, 102, 0.7);
+	cursor: pointer;
+	outline: none;
+}
+
+/*LABEL FOR SELECT*/
+
+#lblSelect {
+	position: relative;
+	display: inline-block;
+}
+
+
+/*DOWNWARD ARROW (25bc)*/
+
+
+#lblSelect::after {
+	content: "\25bc";
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	width: 20px;
+	line-height: 40px;
+	vertical-align: middle;
+	text-align: center;
+	background: #94c1e7;
+	color: #2984ce;
+	-moz-border-radius: 0 6px 6px 0;
+	-webkit-border-radius: 0 6px 6px 0;
+	border-radius: 0 6px 6px 0;
+	pointer-events: none;
+}
+.button {
+	padding: 12px 60px 12px 60px;
+	margin-left: 110px;
+	border: none;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #FFE477;
+	box-shadow: 1px 1px 1px #3D3D3D;
+	-moz-box-shadow: 1px 1px 1px #3D3D3D;
+	-webkit-box-shadow: 1px 1px 1px #3D3D3D;
+	color: #585858;
+	background: #f6ff0a;
+}
+

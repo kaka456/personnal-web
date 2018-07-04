@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>个人资料</title>
+    <link rel="stylesheet" type="text/css" href="css/dada.css" media="screen" />
+</head>
+<body>
+        <div class="Content-Main">
+            <form  action="" method="post" class="form-userInfo">
+                <h1>个人信息</h1>
+                
+                <span class="text1">请在文本框中完善您的个人信息：</span>
+                <p>
+                <div class="fileInputContainer">
+                	<img src="img/校徽.jpg" />
+                    <input class="fileInput" id="" type="file" name="">
+                </div>
+                <label>
+                    <span>姓名:</span>
+                    <input type="text"  name="name" placeholder="Your Full Name" id="user">
+                    <p>NOT NULL</p>
+                </label>
+                <label class="Main-sex">
+                    <span>性别:</span>
+                    <input type="checkbox" class="man">男
+                    <input type="checkbox" class="women">女
+                </label>
+                <label>
+                    <span>邮箱:</span>
+                    <input type="email" name="email" placeholder="@.com" id="eml">
+                    <p>NOT NULL</p>
+                </label>
+                <label>
+                    <span>电话:</span>
+                    <input type="text" name="phone" placeholder="Please input 11 number" id="pho">
+                    <p>NOT NULL</p>
+                </label>
+                <label>
+                    <span>信息:</span>
+                    <textarea id="message" name="message" placeholder="Your message to us"></textarea>
+                </label>
+                <label>
+                    <input type="button" class="button" value="提交" id="btn"/>
+                    <a href="index.html">返回首页<a/>
+                </label>
+            </form>
+        </div>
+ <script type="text/javascript" src="js/confirmation.js"></script>
+</body>
+</html>
